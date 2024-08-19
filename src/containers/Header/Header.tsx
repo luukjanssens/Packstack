@@ -23,10 +23,10 @@ export const Header = () => {
   ]
 
   return (
-    <div className="px-4 bg-slate-900">
+    <div className="px-4 dark:bg-slate-900 bg-green-400">
       <div className="flex justify-between items-center">
         <div className="w-[120px]">
-          <img src={logo} />
+          <img src={logo} alt="logo" />
         </div>
         <div className="flex gap-6">
           {authenticatedLinks.map(({ name, path }) => (
